@@ -7,7 +7,7 @@ on:
 
 
 jobs:
-  deploy:
+  Deploy:
     name: Tests
     runs-on: ubuntu-latest
 
