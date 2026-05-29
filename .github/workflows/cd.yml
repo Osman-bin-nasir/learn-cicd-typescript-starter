@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-  name: Tests
+    name: Tests
     runs-on: ubuntu-latest
 
     steps:
