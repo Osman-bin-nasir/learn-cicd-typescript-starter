@@ -43,3 +43,4 @@ jobs:
         run: |
           gcloud builds submit \
             --tag us-central1-docker.pkg.dev/notely-osman/notely-ar-repo/my-image:latest
+
