@@ -47,7 +47,7 @@ jobs:
       - name: Deploy to Cloud Run
         run: |
           gcloud run deploy notely \
-            --image us-central1-docker.pkg.dev/notely-osman/notely-ar-repo/my-image@sha256:aa810097d0835937eabb8eb5b023309dd200cd684f5cc9c9e5198305ecc12635 \
+            --image us-central1-docker.pkg.dev/notely-osman/notely-ar-repo/my-image:latest \
             --region us-central1 \
             --allow-unauthenticated \
             --project notely-osman \
